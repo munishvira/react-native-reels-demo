@@ -1,97 +1,79 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🎥 React Native Reels Demo
 
-# Getting Started
+A simple **Instagram Reels–like vertical video feed** built with React Native.  
+This project demonstrates smooth video playback, vertical swiping, and interactive overlays (❤️, 💬, 📤).  
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 📹 Demo
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+https://github.com/user-attachments/assets/9276ed1b-5fcc-45c6-b312-ff30ac3db58b
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## ✨ Features
+- 📱 Vertical scrolling video feed with [@shopify/flash-list](https://shopify.github.io/flash-list/)  
+- 🎬 Auto-play & pause — only the current video plays  
+- ⏯ Tap to pause/resume videos  
+- ❤️ Animated like button using [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)  
+- 🎥 Videos streamed with [react-native-video](https://github.com/react-native-video/react-native-video)  
+- ⚡ Smooth, responsive UI optimized for mobile  
 
-# OR using Yarn
-yarn start
+---
+
+## 🛠️ Tech Stack
+- [React Native](https://reactnative.dev/)  
+- [@shopify/flash-list](https://shopify.github.io/flash-list/)  
+- [react-native-video](https://github.com/react-native-video/react-native-video)  
+- [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)  
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/munishvira/reels-demo.git
+cd reels-demo
+yarn install
 ```
 
-## Step 2: Build and run your app
+## Run on Android:
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+npx react-native run-android
 ```
 
-### iOS
+## Run on iOS:
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```bash
+npx pod-install
+npx react-native run-ios
 ```
 
-Then, and every time you update your native dependencies, run:
+## 📂 Project Structure
 
-```sh
-bundle exec pod install
+```bash
+├── ReelsScreen.js   # Main screen with FlashList + Video player
+├── package.json
+├── android/
+├── ios/
+└── README.md
 ```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+## 💡 About the Author
 
-```sh
-# Using npm
-npm run ios
+👨‍💻 **Munish Vira**  
+Senior Software Engineer | React Native Specialist | 4+ years experience  
 
-# OR using Yarn
-yarn ios
-```
+- 💼 4+ years experience in **React Native, React, Next.js**  
+- 🚀 Scaled apps to **1,000+ concurrent users** with **40% performance boost**  
+- 📱 Expert in **animations, in-app purchases, analytics, and cross-platform scaling**  
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+📧 Email: [munishvira1999@gmail.com](mailto:munishvira1999@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/munish-vira](https://www.linkedin.com/in/munish-vira)  
+💻 GitHub: [github.com/munishvira](https://github.com/munishvira)  
+🌐 Portfolio: [munishvira.github.io](https://munishvira.github.io)  
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## ⚡ Feel free to fork, improve, or use this as a starter for your own reels-like project!
