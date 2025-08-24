@@ -34,8 +34,8 @@ https://github.com/user-attachments/assets/9276ed1b-5fcc-45c6-b312-ff30ac3db58b
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/munishvira/reels-demo.git
-cd reels-demo
+git clone https://github.com/munishvira/react-native-reels-demo.git
+cd ReelsDemo
 yarn install
 ```
 
